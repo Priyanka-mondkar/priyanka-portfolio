@@ -7,50 +7,78 @@
 
   <style>
 
-    body{
+    *{
       margin:0;
+      padding:0;
+      box-sizing:border-box;
       font-family:Arial, sans-serif;
+    }
+
+    body{
       background:#f4f4f4;
       color:#333;
+      line-height:1.6;
     }
 
     header{
-      background:#222;
+      background:#1f1f1f;
       color:white;
       text-align:center;
-      padding:40px 20px;
+      padding:50px 20px;
     }
 
     header h1{
-      margin:0;
-      font-size:35px;
+      font-size:40px;
+      margin-bottom:10px;
     }
 
     header p{
-      margin-top:10px;
       font-size:18px;
+      color:#ddd;
+    }
+
+    .container{
+      width:90%;
+      max-width:1000px;
+      margin:auto;
+      padding:20px 0;
     }
 
     section{
-      padding:20px;
-      margin:20px;
       background:white;
-      border-radius:10px;
-      box-shadow:0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom:20px;
+      padding:25px;
+      border-radius:12px;
+      box-shadow:0 2px 10px rgba(0,0,0,0.1);
     }
 
     h2{
+      margin-bottom:15px;
       color:#222;
+      border-bottom:2px solid #ddd;
+      padding-bottom:8px;
     }
 
     ul{
       padding-left:20px;
     }
 
+    li{
+      margin-bottom:10px;
+    }
+
+    .project{
+      margin-bottom:15px;
+    }
+
+    .contact p{
+      margin-bottom:8px;
+    }
+
     footer{
-      text-align:center;
-      background:#222;
+      background:#1f1f1f;
       color:white;
+      text-align:center;
       padding:15px;
       margin-top:20px;
     }
@@ -62,47 +90,78 @@
 
   <header>
     <h1>Priyanka Mondkar</h1>
-    <p>Aspiring Web Developer</p>
+    <p>BCA Student | Aspiring Web Developer</p>
   </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>
-      I am a BCA student interested in web development and technology.
-      I enjoy learning new things and building websites.
-    </p>
-  </section>
+  <div class="container">
 
-  <section>
-    <h2>Skills</h2>
+    <section>
+      <h2>About Me</h2>
 
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>node.js</li>
-      <li>Python</li>
-      <li>Git & GitHub</li>
-    </ul>
-  </section>
+      <p>
+        Motivated BCA student with basic knowledge of programming languages like C, C++ and Python.
+        Interested in web development using HTML, CSS and JavaScript.
+        Quick learner with a strong interest in software development.
+      </p>
+    </section>
 
-  <section>
-    <h2>Projects</h2>
+    <section>
+      <h2>Skills</h2>
 
-    <ul>
-      <li>Online Flower Shop Website</li>
-      <li>Cake Shop Website</li>
-    </ul>
-  </section>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>C & C++</li>
+        <li>Basic SQL</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Contact</h2>
+    <section>
+      <h2>Projects</h2>
 
-    <p>Email: pmondkar9@gmail.com</p>
-  </section>
+      <div class="project">
+        <h3>Online Flower Shop Website</h3>
+
+        <p>
+          Developed an e-commerce website for selling flowers using HTML, CSS and JavaScript.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Cake Shop Website</h3>
+
+        <p>
+          Created a responsive cake ordering website with attractive UI design.
+        </p>
+      </div>
+
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+
+      <ul>
+        <li>UI/UX Design Certification</li>
+        <li>Digital Forensic Certification</li>
+        <li>Web Developer Certification</li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+
+      <p>Email: pmondkar9@gmail.com</p>
+      <p>Location: Maharashtra, India</p>
+      <p>LinkedIn: linkedin.com/in/priyanka-mondkar</p>
+    </section>
+
+  </div>
 
   <footer>
-    <p>© 2026 Priyanka Portfolio</p>
+    <p>© 2026 Priyanka Mondkar | Portfolio Website</p>
   </footer>
 
 </body>
